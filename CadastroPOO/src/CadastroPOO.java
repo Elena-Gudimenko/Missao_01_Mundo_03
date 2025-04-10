@@ -5,7 +5,7 @@ public class CadastroPOO {
 
     public static void main(String[] args) {
         try {
-            // --- Pessoa F?sica ---
+            // --- Pessoa Fisica ---
             PessoaFisicaRepo repo1 = new PessoaFisicaRepo();
             repo1.inserir(new PessoaFisica(1, "Ivan Silva", "123.456.789-00", 30));
             repo1.inserir(new PessoaFisica(2, "Maria Souza", "987.654.321-00", 25));
